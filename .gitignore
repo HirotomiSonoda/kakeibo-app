@@ -1,0 +1,18 @@
+# 依存関係
+node_modules/
+
+# 環境変数（APIキーなどの機密情報）
+.env
+.env.local
+backend/.env
+frontend/.env
+
+# ビルド成果物
+frontend/dist/
+frontend/build/
+
+# ログ・OS生成ファイル
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
